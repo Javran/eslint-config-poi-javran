@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-poi-javran",
+  "version": "1.0.0",
+  "description": "Javran's ESLint config for poi plugins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Javran/eslint-config-poi-javran.git"
+  },
+  "keywords": [
+    "kancolle",
+    "poi"
+  ],
+  "author": {
+    "name": "Javran",
+    "url": "https://github.com/Javran"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Javran/eslint-config-poi-javran/issues"
+  },
+  "homepage": "https://github.com/Javran/eslint-config-poi-javran#readme",
+  "peerDependencies": {
+    "eslint-plugin-import": ">=2.22.1",
+    "eslint-plugin-jsx-a11y": ">=5.1.1",
+    "eslint-plugin-react": ">=7.23.2"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^15.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.26.0"
+  }
+}
